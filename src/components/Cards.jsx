@@ -4,13 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { faRetweet} from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaKey } from 'react-icons/fa';
-// import frame1 from '../images/Frame 49.jpg';
-// import frame2 from '../images/Frame 107.jpg';
-// import frame3 from '../images/Frame 108.jpg';
-// import frame4 from '../images/Frame 111.jpg';
-
+// import frame1 from '../images/benz.jpg';
+// import frame2 from '../images/bmw.jpg';
+// import frame3 from '../images/36.jpg';
 
 function Cards() {
+
   return (
 
 <>
@@ -68,8 +67,7 @@ function Cards() {
       <FaKey className='key' />
 
       </div>
-      <h2 className='car'>Sales of New Car Parts</h2>
-      <p>We relieve customers from the stress of getting genuine new car parts that are compactible with their vehicles .</p>
+  
     </div>
 </div>
 <br />
@@ -98,6 +96,42 @@ function Cards() {
 </marquee>
     </div>
 
+</div>
+<div className="second--card">
+<h5 style={{color:'green'}}>Available Promo</h5>
+<h2 style={{color:'green'}}>Unbeatable <bold style={{color:'white'}}>deals for a limited time.</bold></h2>
+
+
+
+<section className="cards-wrapper">
+  <div className="card-grid-space1">
+        {/* <img src={frame1} alt="" /> */}
+      <div>
+        <p className='explore-p'>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+       <button className='explore-btn'>Claim Now</button>
+      </div>
+  </div>
+  <div className="card-grid-space2">
+        {/* <img src={frame2} alt="" /> */}
+      <div>
+        <p className='explore-p'>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+       <button className='explore-btn'>Claim Now</button>
+      </div>
+  </div>
+  <div className="card-grid-space3">
+  {/* <div className="date">
+          <h2>Expires july 31st,2023</h2>
+        </div> */}
+      <div>
+        <p className='explore-p'>The syntax of a language is how it works. How to actually write it. Learn HTML syntax…</p>
+       <button className='explore-btn'>Claim Now</button>
+      </div>
+  </div>
+
+
+
+</section>
+ 
 </div>
     
 </>

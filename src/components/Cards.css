@@ -24,10 +24,14 @@
 h5{
   color: green;
   text-align: center;
+  padding-top: 10px;
 }
 h2{
  
   text-align: center;
+  padding-top: 5px;
+  padding-bottom: 25px;
+  font-size: 50px;
 }
 
 .icon-card {
@@ -59,9 +63,12 @@ h2{
   margin-bottom: 10px;
   color: green;
   box-shadow: 0 5px 30px rgba(225, 216, 216, 0.3);
-
-
   
+}
+.second--card{
+  background-color: rgb(43, 41, 41);
+  padding-bottom: 25px;
+  padding-top: 50px;
 }
 p{
   font-size: 16px;
@@ -69,6 +76,18 @@ p{
  text-align: start;
  max-width: 350px;
  
+}
+.photo{
+  width: 20%;
+  height: 50vh;
+}
+.second--carding{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 33vh;
+
 }
 
 #myclock {
@@ -130,5 +149,139 @@ p{
   }
   .carding{
     width: 50%;
+  }
+}
+
+
+
+
+
+.cards-wrapper {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  padding: 4rem;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.card-grid-space1 {
+  font-family: 'Heebo';
+  background-image:url("../images/benz.jpg");
+  height: 20em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  padding-bottom: 90px;
+}
+
+.card-grid-space2 {
+  font-family: 'Heebo';
+  background-image:url("../images/bmw.jpg");
+  height: 20em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  padding-bottom: 90px;
+}
+
+.card-grid-space3 {
+
+  font-family: 'Heebo'; 
+  background-image:url("../images/36.jpg");
+  height: 20em;
+  width: 15em;
+  font-size: 1.5em;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5em -1em black;
+  padding-bottom: 90px;
+}
+.explore-btn{
+  background-color: rgb(29, 135, 29);
+  border: 0;
+  width: 70%;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.explore-p{
+  font-size: 20px;
+}
+
+
+.card:before, .card:after {
+  content: '';
+  transform: scale(0);
+  transform-origin: top left;
+  border-radius: 50%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  z-index: -5;
+  transition: all, var(--transition-time);
+  transition-timing-function: ease-in-out;
+}
+
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1285px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cards-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .info {
+    justify-content: center;
+  }
+  .card-grid-space .num {
+    /margin-left: 0;
+    /text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards-wrapper {
+    padding: 4rem 2rem;
+  }
+  .card {
+    max-width: calc(100vw - 4rem);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info h1 {
+    margin: 0;
   }
 }
