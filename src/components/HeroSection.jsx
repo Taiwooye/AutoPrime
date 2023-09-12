@@ -1,8 +1,8 @@
 import React from 'react';
 import './HeroSection.css';
 import Homepic from '../images/home.jpg';
-import group from '../images/group.jpg';
-import frame2 from '../images/Frame 108.jpg';
+import group from '../images/home2.jpg';
+import frame2 from '../images/home3.jpg';
 import  { useState, useEffect } from 'react';
 import {Parser} from "html-to-react";
 
