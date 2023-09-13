@@ -15,7 +15,7 @@ const closeMobileMenu=()=>setClick(false);
     <nav className="navbar">
         <div className="navbar-container">
             <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <FontAwesomeIcon icon={faCar} className='nav-icon' /> <big className='nav1'> AUTO<bold className="nav-head">PRIME</bold></big>
+            <FontAwesomeIcon icon={faCar} className='nav-icon' /> <big className='nav1'> AUTO<span className="nav-head">PRIME</span></big>
             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>

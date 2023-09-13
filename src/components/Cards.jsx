@@ -10,8 +10,9 @@ import frame3 from '../images/Vector.png';
 import frame4 from '../images/hyundai.png';
 import frame5 from '../images/bmw.png';
 import frame6 from '../images/chevrolet-4.png';
-import frame7 from '../images/honda.png';
-import frame8 from '../images/ford.jpg';
+
+
+// import frame8 from '../images/ford.jpg';
 
 
 function Cards() {
@@ -80,34 +81,36 @@ function Cards() {
 </div>
 <br />
 
-<div className="myclock"> 
-<marquee>
+<div className="marquee">
+  <div className="marquee-content"> 
 
-<div className="carding">
-  <img src={frame1} alt="" className='gallery_image' />
-     </div>
-     <div className="carding">
-  <img src={frame2} alt="" className='gallery_image' />
-     </div>
-     <div className="carding">
-  <img src={frame3} alt="" className='gallery_image' />
-     </div>
-     <div className="carding">
-  <img src={frame4} alt="" className='gallery_image' />
-     </div>
-     <div className="carding">
-  <img src={frame5} alt="" className='gallery_image' />
-     </div>
-     <div className="carding">
-  <img src={frame6} alt="" className='gallery_image' />
-     </div>
-     <div className="carding">
-  <img src={frame7} alt="" className='gallery_image' />
-     </div>
- 
-     
-</marquee>
-</div>
+    <div className="marquee-item">
+    <img src={frame1} alt="" />
+    </div>
+    <div className="marquee-item">
+    <img src={frame2} alt="" />
+    </div>
+    <div className="marquee-item">
+    <img src={frame3} alt="" />
+    </div>
+    <div className="marquee-item">
+    <img src={frame4} alt="" />
+    </div>
+    <div className="marquee-item">
+    <img src={frame5} alt="" />
+    </div>
+    <div className="marquee-item">
+    <img src={frame6} alt="" />
+    </div>
+    {/* <div className="marquee-item">
+    <img src={frame7} alt="" />
+    </div> */}
+
+    
+
+    </div>
+    </div>
+
     </div>
 
 
@@ -289,6 +292,8 @@ function Cards() {
  
 
 </div>
+
+
     
 </>
 
