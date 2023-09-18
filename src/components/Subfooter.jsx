@@ -1,48 +1,48 @@
 import React from 'react';
+import './Subfooter.css'
+import subfooter from '../images/subfooter.jpg';
 
 function Subfooter() {
   return (
-    <div className='container'>
+    <>
+     <h2 className="sub--h2" style={{color:'green', fontSize:'40px', fontWeight:'700'}}>Get a Quote</h2>
+    <div className='container--footer'>
 
 
     <div className="left">
-      <img src={mechanic} alt=""style={{position:'inherit', width:'600px', height:'700px' }} />
+    <form >
+       <div className="first">
+       <p>Name</p>
+        <input type="text" />
+        <p>Location</p>
+        <input type="text" />
+       </div>
+
+
+       <div className="second">
+       <p>Email</p>
+        <input type="text" />
+        <p>Service</p>
+        <input type="text" />
+       </div>
+
+      
+    </form>
+    <div className="third">
+       <p>Message</p>
+        <input type="text" name="" id="" />
+       </div>
+
+       <button className='third--button'>Send Message</button>
     </div>
 
     <div className="right">
-
-        <h3 className='lay-out-h3'><span style={{color:'green', fontSize: '35px'}}>Expert</span> Car Care Tips</h3>
-
-      {myList.map((items) => {
-        
-        return (
-          
-          <div key={items.title}>
-            
-            <ul className='left--ul'>
-       
-            <li  className='left--li' style={{width:'100%', height:'100%'  }}>
-              
-          <div style={{marginRight:'40px'}} >
-          <img src={items.image} alt="slide"  style={{position:'inherit', width:'120px', height:'90%', }}/>
-          </div>
-           <div   style={{position:'inherit', width:'570px', height:'100%'}} >
-           <p style={{ maxWidth:345,fontSize:'20px' }}>{items.title}</p>
-            <h6>{items.date}</h6>
-           </div>  
-     
-            </li>
-          </ul>
-
-          </div>          
-         
-        );
-        }
-      )}
+    <img src={subfooter} alt=""style={{position:'inherit', width:'700px', height:'650px' }} />
     </div>
     
   
   </div>
+  </>
   )
 }
 

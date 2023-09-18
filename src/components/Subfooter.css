@@ -1,0 +1,64 @@
+.container--footer{
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    background-color: rgb(43, 41, 41);
+}
+
+
+.first{
+    width: 50%;
+}
+.second{
+    width: 50%;  
+}
+
+.first input{
+    background-color: rgb(99, 99, 99);
+padding: 15px;
+width: 95%;
+border: none;
+
+}
+.second input{
+background-color: rgb(99, 99, 99);
+padding: 15px;
+width: 95%;
+border: none;
+
+
+}
+
+.first p{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.second p{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.third p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.third{
+    width: 100%;
+}
+.third input{
+    width: 97%;
+    background-color: rgb(99, 99, 99);
+    padding: 45px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.third--button{
+    width: 97%;
+    padding: 8px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 500;
+}

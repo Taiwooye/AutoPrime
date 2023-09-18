@@ -3,7 +3,8 @@ import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 import Layout from '../Layout';
 import Sublayer from '../Sublayer';
-  import Cards from '../Cards';
+import Cards from '../Cards';
+import Subfooter from '../Subfooter';
 
 function Home() {
   return (
@@ -12,7 +13,7 @@ function Home() {
       <Cards />
       <Layout/>
       <Sublayer/>
-
+      <Subfooter/>
       <Footer />
     </div>
   )

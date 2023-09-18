@@ -51,7 +51,7 @@ function HeroSection() {
     
     <div className='hero-container'>
 
-    <img src={currentSlide.image} alt="Slide" />
+    <img className='hero-container-img' src={currentSlide.image} alt="Slide" />
     <h2>{htmlPaser.parse(name) }</h2>
     <h1 style={{ maxWidth:900 }} >{htmlPaser.parse(note)}</h1>
     {/* <h1 style={{ color:'green' }} >{currentSlide.subtitle}</h1> */}

@@ -29,8 +29,6 @@ function Sublayer() {
   return (
     <div>
        <h2 className="sub--h2">Our <span style={{color:'green'}}>Client's</span> Reviews</h2>
-
-
     <>
   
  <div className="list">
