@@ -8,7 +8,7 @@
   }
   
   .footer-input {
-    padding: 15px;
+    padding: 7px;
     border-radius: 2px;
     outline: none;
     border: none;
@@ -47,7 +47,7 @@
   .outline {
     background-color: green;
     color: #fff;
-    padding: 17px 28px;
+    padding: 5px 14px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
     margin-top: 10px;
@@ -66,8 +66,9 @@
   }
   .footer-link-items > h3 {
     color: white;
-    /* margin-top: 40px; */
+    margin-top: 50px;
     padding: 0px;
+    font-size: 25px;
    
   }
   
@@ -84,6 +85,7 @@
   
   .footer-email-form h2 {
     margin-bottom: 2rem;
+    
   }
   
   .footer-input::placeholder {
@@ -92,7 +94,7 @@
   }
   form{
     display: flex;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
 
   /* Social Icons */
