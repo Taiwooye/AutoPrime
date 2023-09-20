@@ -1,16 +1,17 @@
 .list{
     /* height: 400px; */
-    background-color: rgb(43, 41, 41);
+    background-color: #171A19;
     width: 100%;
     display: flex;
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 40px;
     margin-top: -40px;
+ 
    
 }
 .sub--h2{
     color: white;
-    background-color: rgb(43, 41, 41);
+    background-color: #171A19;
     margin-bottom: 0px;
 
 }
@@ -34,4 +35,37 @@
    
   }
 
+  @media (max-width: 768px){
+    .list{
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+      min-height: 100vh;
+      margin-top: -70px;
+    }
+    .project{
+      min-width: 90%;
+      /* background-color: aqua; */
+      min-height: 30vh;
+    text-align: center;
+    flex: 1 1 100px;
+    transition: 0.4s;
+    margin-top: 40px;
+   
+    }
+
+    .sub--p{
+      align-items: flex-start;
+        text-align: center;
+        font-weight: 300;
+      text-align: center;
+      text-justify: inter-word;
+      line-height: 26px;
+      margin: auto;
+      margin-right: 50px;
+      height: 28vh;
+      max-width: 100%;
+     
  
+    }
+  }

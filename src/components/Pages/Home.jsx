@@ -1,20 +1,20 @@
 import React from 'react';
-import Footer from '../Footer';
 import HeroSection from '../HeroSection';
 import Layout from '../Layout';
 import Sublayer from '../Sublayer';
 import Cards from '../Cards';
 import Subfooter from '../Subfooter';
 
+
 function Home() {
   return (
-    <div>
+    <div className='home'>
       <HeroSection />
       <Cards />
       <Layout/>
       <Sublayer/>
       <Subfooter/>
-      <Footer />
+  
     </div>
   )
 }

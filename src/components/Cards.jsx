@@ -85,22 +85,22 @@ function Cards() {
   <div className="marquee-content"> 
 
     <div className="marquee-item">
-    <img src={frame1} alt="" />
+    <img src={frame1} alt="" className='marquee-img' />
     </div>
     <div className="marquee-item">
-    <img src={frame2} alt="" />
+    <img src={frame2} alt="" className='marquee-img' />
     </div>
     <div className="marquee-item">
-    <img src={frame3} alt="" />
+    <img src={frame3} alt="" className='marquee-img' />
     </div>
     <div className="marquee-item">
-    <img src={frame4} alt="" />
+    <img src={frame4} alt="" className='marquee-img' />
     </div>
     <div className="marquee-item">
-    <img src={frame5} alt="" />
+    <img src={frame5} alt=""  className='marquee-img'/>
     </div>
     <div className="marquee-item">
-    <img src={frame6} alt="" />
+    <img src={frame6} alt=""  className='marquee-img' />
     </div>
     {/* <div className="marquee-item">
     <img src={frame7} alt="" />

@@ -37,7 +37,7 @@ export default function Layout() {
 
 
       <div className="left">
-        <img src={mechanic} alt=""style={{position:'inherit', width:'600px', height:'700px' }} />
+        <img src={mechanic} alt=""style={{position:'inherit', width:'600px', height:'700px' }} className='left-img' />
       </div>
 
       <div className="right">
@@ -55,7 +55,7 @@ export default function Layout() {
               <li  className='left--li' style={{width:'100%', height:'100%'  }}>
                 
             <div style={{marginRight:'40px'}} >
-            <img src={items.image} alt="slide"  style={{position:'inherit', width:'120px', height:'90%', }}/>
+            <img src={items.image} alt="slide"  style={{position:'inherit', width:'120px', height:'90%', }} className='right-img'/>
             </div>
              <div   style={{position:'inherit', width:'570px', height:'100%'}} >
              <p style={{ maxWidth:345,fontSize:'20px' }}>{items.title}</p>

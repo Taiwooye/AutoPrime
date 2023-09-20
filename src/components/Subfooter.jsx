@@ -37,7 +37,7 @@ function Subfooter() {
     </div>
 
     <div className="right">
-    <img src={subfooter} alt=""style={{position:'inherit', width:'700px', height:'650px' }} />
+    <img src={subfooter} alt=""style={{position:'inherit', width:'660px', height:'650px' }} />
     </div>
     
   
