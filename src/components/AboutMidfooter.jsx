@@ -58,7 +58,7 @@ export default function AboutSubhero() {
 
     
       <div className="rightmid">
-    <img src={group} alt=""style={{position:'inherit', width:'660px', height:'650px' }} />
+    <img src={group} alt=""style={{position:'inherit', width:'700px', height:'600px', objectFit:'cover' }} />
     </div>
   
       

@@ -13,8 +13,6 @@ function About() {
        <AboutMidhero/>
        <AboutMidfooter/>
        <ListAccordion/>
-
-
       
     </div>
   )
