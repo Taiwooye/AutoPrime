@@ -35,7 +35,7 @@ const Accordion = () => {
         {sections.map((section, index) => (
           <li key={index}>
             <div
-              className={`accordion-header ${openSections[index] ? 'open' : ''}`}
+              className={`accordion-car ${openSections[index] ? 'open' : ''}`}
               onClick={() => toggleSection(index)}
             >
               {section.head}

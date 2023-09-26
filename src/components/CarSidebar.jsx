@@ -150,17 +150,32 @@ function CarSidebar() {
          
           
           </div>
+          
           </div>
-     </div>          
+
+      
+     </div> 
+
    
   );
+  
   }
 )} 
- </div>
 
+ </div>
+ 
+ <div className="lastcard">
+            <h3 className='last3'>Can't Find Your Preferred Vehicles?</h3>
+            <h6 className='last4'>You choose a vehicle you prefer, and we'll
+             proceed wit </h6>
+             <h6 className='last4'>placing an order for it on your behalf</h6>
+             <button className='butt5'>Order Now</button>
+          </div>
     </div>
+  
 
   </div>
+  
   )
 }
 
