@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import { faRetweet} from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaKey } from 'react-icons/fa';
-import frame1 from '../images/ford-8.png';
+import frame1 from '../images/red.jpg';
 import frame2 from '../images/Frame 142.png';
 import frame3 from '../images/Vector.png';
 import frame4 from '../images/hyundai.png';

@@ -33,7 +33,7 @@ function Subfooter() {
         <input type="text" name="" id="" />
        </div>
 
-       <button className='third--button'>Send Message</button>
+       <button className='third-button'>Send Message</button>
     </div>
 
     <div className="right">

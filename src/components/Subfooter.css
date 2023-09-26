@@ -7,10 +7,10 @@
 
 
 .first{
-    width: 50%;
+    width: 47%;
 }
 .second{
-    width: 50%;  
+    width: 47%;  
 }
 
 .first input{
@@ -44,18 +44,18 @@ border: none;
 }
 
 .third{
-    width: 100%;
+    width: 91.5%;
 }
 .third input{
-    width: 97%;
+    width: 100%;
     background-color: rgb(99, 99, 99);
     padding: 45px;
     margin-bottom: 30px;
     border: none;
 }
 
-.third--button{
-    width: 97%;
+.third-button{
+    width: 92%;
     padding: 8px;
     background-color: green;
     border: none;

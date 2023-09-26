@@ -1,7 +1,7 @@
 
 .contact-wrapper {
     display: flex;
-    height: 110vh;
+    height: 90vh;
    padding: 50px;
     justify-content: space-evenly;
     background-color: #171A19;
@@ -46,28 +46,28 @@
 .first-h3{
     font-weight: 800;
 }
-.first{
+.first1{
     width: 50%;
     margin-top: 30px;
     
 }
-.second{
+.second2{
     width: 50%;  
     margin-top: 30px;
 }
 
-.first input{
+.first1 input{
 background-color: rgb(14, 14, 14);
 padding: 15px;
-width: 97%;
+width: 90%;
 border: none;
 border: 1.5px solid rgb(42, 179, 40);
 
 }
-.second input{
+.second2 input{
 background-color: rgb(14, 14, 14);
 padding: 15px;
-width: 97%;
+width: 90%;
 border: none;
 border: 1.5px solid rgb(42, 179, 40);
 }
@@ -88,11 +88,11 @@ border: 1.5px solid rgb(42, 179, 40);
     margin-top: 30px;
 }
 
-.third{
-    width: 98.5%;
+.third3{
+    width: 95.5%;
     
 }
-.third input{
+.third3 input{
     width: 100%;
     background-color: rgb(14, 14, 14);
     padding: 45px;
@@ -114,7 +114,7 @@ border: 1.5px solid rgb(42, 179, 40);
 .number1, .number2, .number3{
    padding: 15px;
    border-radius: 5px;
-   box-shadow:2px 1px 7px 0px rgb(52, 127, 52);
+   box-shadow: 0px 0px 0px 1px rgb(51, 76, 61);
    margin-bottom: 20px;
    display: flex;
    background-color: #070707;
@@ -136,9 +136,9 @@ font-size: 18px;
 } 
 .contact-icon{
     font-size: 50px;
-    width: 25%;
-    padding: 5px;
-    background-color: rgb(69, 67, 67);
+    width: 23%;
+    padding: 3px;
+    background-color: rgb(59, 58, 58);
    margin: auto;
     box-shadow:2px 1px 7px 0px rgb(52, 127, 52);
    
@@ -146,6 +146,15 @@ font-size: 18px;
 .icon-con{
     margin-left: 10px;
     color: rgb(47, 156, 10);
+}
+.message--button{
+    width: 37%;
+    padding: 8px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 @media (max-width: 768px){

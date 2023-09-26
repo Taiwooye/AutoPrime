@@ -29,12 +29,16 @@ function Listaccordion() {
     },
   ];
 
+
   return (
     <div className="accordion">
       <h1  className="accord"><span style={{color:'green'}}>Questions</span> We're Often Asked</h1>
       <Accordion items={accordionItems} className="accorditem"/>
     </div>
-  );
+
+
+  )
+  
 }
 
 export default Listaccordion;

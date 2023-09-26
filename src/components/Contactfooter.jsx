@@ -42,20 +42,20 @@ function CarSidebar() {
     <div className="contact-mainsidebar">
         <h3 className="first-h3">Send Message</h3>
     <form >
-       <div className="first">
+       <div className="first1">
 
         <input type="text"
         placeholder='Name' />
        </div>
 
-       <div className="second">
+       <div className="second2">
         <input type="text"
          placeholder='Email' />
        </div>
   
     </form>
     <br />
-    <div className="third">
+    <div className="third3">
     
         <input type="text" name="" id="" 
         placeholder='Subject'/>
@@ -65,7 +65,7 @@ function CarSidebar() {
         
        </div>
 
-       <button className='third--button'>Send Message</button>
+       <button className='message--button'>Send Message</button>
     </div>
     </div>
 

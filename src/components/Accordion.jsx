@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Accordion.css'; // You can create this CSS file for styling
+import './Accordion.css';
 
 const AccordionItem = ({ title, content, isOpen, onClick }) => (
   <div className={`accordion-item ${isOpen ? 'open' : ''}`}>
@@ -15,7 +15,7 @@ const Accordion = ({ items }) => {
 
   const toggleItem = (index) => {
     if (openIndex === index) {
-      setOpenIndex(-1); // Close the currently open item if clicked again
+      setOpenIndex(-1); 
     } else {
       setOpenIndex(index);
     }
