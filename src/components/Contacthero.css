@@ -17,10 +17,11 @@
   
   .write > h1 {
     color: #fff;
-    font-size: 32px;
+    font-size: 30px;
     text-align: center;
     margin-top: 0px;
-    font-weight: 900;
+    line-height: 30px;
+    font-weight: 800;
 
   }
   .write{

@@ -30,6 +30,7 @@
    padding: 10px;
     align-items: flex-start;
     margin-right: 30px;
+    
   }
   
   .footer-link-items {
@@ -40,6 +41,7 @@
     text-align: left;
     width: 50%;
     box-sizing: border-box;
+ 
     
   }
 
@@ -57,7 +59,9 @@
   .footer-link-items > h1 {
     color: green;
     display: flex;
-    font-size: 30px;
+    font-size: 27px;
+    margin-top: 6px;
+   
   
   }
   

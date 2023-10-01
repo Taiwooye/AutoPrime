@@ -41,10 +41,12 @@
   }
   .img-div{
     width: 53%;
-    height: 265px;
-    margin-top: 7px;
-    margin-left:-20px;
-    background-color: rgb(138, 144, 144);
+    height: 205px;
+    border: none;
+    object-fit: cover;
+    margin-top: 3px;
+    margin-left:10px;
+    /* background-color: rgb(138, 144, 144); */
   }
 
   .h6{

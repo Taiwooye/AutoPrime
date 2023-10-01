@@ -69,7 +69,7 @@ export default function Layout() {
  
       <li  className='right--li' style={{width:'100%', height:'100%'  }}>
         
-    <div style={{marginRight:'20px'}} >
+    <div style={{marginRight:'50px'}} >
     <img  className='img-div'  src={items.image} alt="slide"  style={{position:'inherit', width:'230px', height:'95%', }} />
     </div>
      <div   style={{position:'inherit', width:'400px', height:'100%'}} >
@@ -101,7 +101,7 @@ export default function Layout() {
  
       <li  className='right--li' style={{width:'100%', height:'100%'  }}>
         
-    <div  style={{marginRight:'20px'}} >
+    <div  style={{marginRight:'50px'}} >
     <img className='img-div'  src={items.image} alt="slide"  style={{position:'inherit', width:'230px', height:'95%', }} />
     </div>
      <div   style={{position:'inherit', width:'400px', height:'100%'}} >

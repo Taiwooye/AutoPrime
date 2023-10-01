@@ -1,10 +1,11 @@
 import React from 'react'
+import Marquee from 'react-fast-marquee'
 import './Cards.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { faRetweet} from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaKey } from 'react-icons/fa';
-import frame1 from '../images/red.jpg';
+ import frame1 from '../images/red.jpg';
 import frame2 from '../images/Frame 142.png';
 import frame3 from '../images/Vector.png';
 import frame4 from '../images/hyundai.png';
@@ -81,11 +82,40 @@ function Cards() {
 </div>
 <br />
 
-<div className="marquee">
+
+<Marquee play={true} speed={70 } >
+  <div className='image-wrapper'>
+    <img src={frame6} alt=""  />
+    </div>
+    <div className='image-wrapper'>
+    <img src={frame2} alt="" />
+    </div>
+    <div className='image-wrapper'>
+    <img src={frame3} alt="" />
+    </div>
+    <div className='image-wrapper'>
+    <img src={frame4} alt=""/>
+    </div>
+    <div className='image-wrapper'>
+    <img src={frame5} alt=""  />
+    </div>
+    <div className='image-wrapper'>
+    <img src={frame6} alt="" />
+    </div>
+    <div className='image-wrapper'>
+    <img src={frame3} alt="" />
+    </div>
+    <div className='image-wrapper'>
+    <img src={frame4} alt="" />
+    </div>
+</Marquee>
+
+
+{/* <div className="marquee">
   <div className="marquee-content"> 
 
     <div className="marquee-item">
-    <img src={frame1} alt="" className='marquee-img' />
+    <img src={frame6} alt="" className='marquee-img' />
     </div>
     <div className="marquee-item">
     <img src={frame2} alt="" className='marquee-img' />
@@ -102,14 +132,12 @@ function Cards() {
     <div className="marquee-item">
     <img src={frame6} alt=""  className='marquee-img' />
     </div>
-    {/* <div className="marquee-item">
-    <img src={frame7} alt="" />
-    </div> */}
+  
 
     
 
     </div>
-    </div>
+    </div> */}
 
     </div>
 

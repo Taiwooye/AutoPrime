@@ -83,49 +83,17 @@ p{
 }
 .second--carding{
   width: 100%;
-  display: flex;
+  display:  flex;
   justify-content: center;
   align-items: center;
   height: 33vh;
 
 }
-
-.marquee {
-    overflow: hidden;
-    height: 100px; 
-    width: 100%;
-    background-color: #171A19;
-   
-  }
-
-.marquee-content {
-  display: flex;
-  animation: scrolling 10s linear infinite;
-  height: 100px;
-  margin-top: 20px;
-  /* width: 100%; */
+.image-wrapper{
+margin: 0px 20px;
 }
-
-.marquee-item {
-  flex: 0 0 20vw;
-  margin: 0 1vw;
-  height: 130px;
-
-}
-
-.marquee-img {
-  display: block;
-  min-width: 10%;
-  /* width: 20%; */
-  object-fit: contain;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-@keyframes scrolling {
-  0% { transform: translateX(0); }
-  100% { transform: translatex(-144vw); }
+.image-wrapper img{
+  width: 80%;
 }
 
 
@@ -354,7 +322,7 @@ object-fit: cover;
   
 }
 .card--7 .card__img, .card--7 .card__img--hover {
-  background-image:url("../images/ford.jpg");
+  background-image:url("../images/harsh.jpg");
   
 }
 .card--8 .card__img, .card--8 .card__img--hover {

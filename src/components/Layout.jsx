@@ -42,7 +42,7 @@ export default function Layout() {
 
       <div className="right">
 
-          <h3 className='lay-out-h3'><span style={{color:'green', fontSize: '35px'}}>Expert</span> Car Care Tips</h3>
+       <h3 className='layouth3'><span style={{color:'green', fontSize: '30px'}}>Expert</span> Car Care Tips</h3>
 
         {myList.map((items) => {
           
@@ -54,8 +54,8 @@ export default function Layout() {
          
               <li  className='left--li' style={{width:'100%', height:'100%'  }}>
                 
-            <div style={{marginRight:'40px'}} >
-            <img src={items.image} alt="slide"  style={{position:'inherit', width:'120px', height:'90%', }} className='right-img'/>
+            <div style={{marginRight:'30px'}} >
+            <img src={items.image} alt="slide"  style={{position:'inherit', width:'150px', height:'100%', }} className='right-img'/>
             </div>
              <div   style={{position:'inherit', width:'570px', height:'100%'}} >
              <p style={{ maxWidth:345,fontSize:'20px' }}>{items.title}</p>

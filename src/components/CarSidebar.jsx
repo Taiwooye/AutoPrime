@@ -119,7 +119,7 @@ function CarSidebar() {
 
     <div className="mainhead">
       <p>15 cars found</p>
-      <span>Sort: <button>Low to High Price</button></span>
+      <span>Sort: <button style={{border:'none', fontSize:'15px'}}>Low to High Price</button></span>
     </div>
 
 

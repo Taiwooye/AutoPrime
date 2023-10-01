@@ -21,7 +21,7 @@ export default function AboutSubhero() {
       <div className="leftmid">
       
       <h3 className='about-h3'
-       style={{color:'green', fontSize: '20px'}}> 
+       style={{color:'green', }}> 
        Join our automotive family and drive your career forward
        </h3>
 
