@@ -25,9 +25,6 @@ export default function AboutSubhero() {
         <img src={hot1} alt=""  className='hh' />
         <img src={hot2} alt=""  className='he' />
         <img src={hot3} alt="" className='hr'/>
-        {/* <h2 className='hh'></h2>
-        <h2 className='he'></h2>
-        <h2 className='hr'></h2> */}
 
       </div>
 

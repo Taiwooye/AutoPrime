@@ -6,6 +6,7 @@ import About from './components/Pages/About';
 import { BrowserRouter as Router,Route,Routes} from 'react-router-dom';
 import Car from './components/Pages/Car';
 import Contact from './components/Pages/Contact';
+import Services from './components/Pages/Services';
 
 
 //, Route,Routes
@@ -21,6 +22,7 @@ function App() {
 
 <Route path="/about-us" element={<About/>} />
 <Route path="/cars" element={<Car/>} />
+<Route path="/services" element={<Services/>} />
 <Route path="/contacts" element={<Contact/>} />
 
 </Routes>
