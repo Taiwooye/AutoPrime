@@ -36,7 +36,7 @@ export default function Layout() {
       <div className='container'>
 
 
-      <div className="left">
+      <div className="left animate__animated animate__fadeInLeft ">
         <img src={mechanic} alt=""style={{position:'inherit', width:'600px', height:'700px' }} className='left-img' />
       </div>
 
@@ -48,7 +48,7 @@ export default function Layout() {
           
           return (
             
-            <div key={items.title}>
+            <div key={items.title} class='right animate__animated animate__slideInRight'>
               
               <ul className='left--ul'>
          

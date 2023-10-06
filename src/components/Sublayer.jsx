@@ -31,10 +31,10 @@ function Sublayer() {
        <h2 className="sub--h2">Our <span style={{color:'green'}}>Client's</span> Reviews</h2>
     <>
   
- <div className="list">
+ <div className="list ">
      {
          array.map((item) =>{
-     return (<article className="project" key={item.id} style={{marginLeft:'70px'}}>  
+     return (<article className="project  animate__animated animate__zoomIn" key={item.id} style={{marginLeft:'70px'}}>  
     <p className="sub--p" style={{fontSize:'17px', textAlign:'center'}}>{item.title}</p>
       <h6 style={{color:'white'}}>{item.auther}</h6>
     </article>);            

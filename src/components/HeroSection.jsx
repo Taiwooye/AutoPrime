@@ -51,9 +51,8 @@ function HeroSection() {
     <img className='hero-container-img' src={currentSlide.image} alt="Slide" />
     <h2 class="animate__animated animate__backInRight">{htmlPaser.parse(name) }</h2>
     <h1 style={{ maxWidth:900 }} class="animate__animated animate__backInRight" >{htmlPaser.parse(note)}</h1>
-    <button className='btns'>Explore</button >
+    <button className='btns  animate__animated animate__fadeInUp' >Explore</button >
      </div>
   )
 }
 export default HeroSection
-

@@ -26,7 +26,7 @@ function Cards() {
 <h2 style={{color:'white'}}>Range of <bold style={{color:'green'}}>Automotive Solutions</bold> Tailored to <br />
  Exeecd Your Expectations</h2>
 <div className="cards" >
-<div className="icon-card">
+<div className="icon-card animate__animated animate__slideInLeft">
       <div className="icon">
       <FaKey className='key' />
       </div>
@@ -35,7 +35,7 @@ function Cards() {
         for a car company,it involves showcasing and 
         selling a range of vehicles to customers.</p>
     </div>
-<div className="icon-card">
+<div className="icon-card ">
       <div className="icon">
       <FaKey className='key'  />
       </div>
@@ -43,7 +43,7 @@ function Cards() {
       <p>you can easily trade in your car for another one
         with us at a very good rate.</p>
     </div>
-<div className="icon-card">
+<div className="icon-card animate__animated animate__slideInRight">
       <div className="icon">
       <FaKey className='key' />
       </div>
@@ -54,7 +54,7 @@ function Cards() {
 </div>
 
 <div className="cards2">
-<div className="icon-card">
+<div className="icon-card animate__animated animate__slideInLeft">
       <div className="icon">
       <FaKey className='key' />
       </div>
@@ -62,7 +62,7 @@ function Cards() {
       <p>You choose a vehicle you prefer,
         and we'll proceed with placing an order for it on your behalf.</p>
     </div>
-<div className="icon-card">
+<div className="icon-card ">
       <div className="icon">
       <FaKey className='key' />
       </div>
@@ -70,7 +70,7 @@ function Cards() {
       <p>We fix any mechanical or electical issues that may
         arise with your vehicles and return them back in better conditions.</p>
     </div>
-<div className="icon-card">
+<div className="icon-card animate__animated animate__slideInRight ">
       <div className="icon">
       <FaKey className='key' />
 
@@ -118,21 +118,21 @@ function Cards() {
 <h2 style={{color:'green'}}>Unbeatable <bold style={{color:'white'}}>deals for a limited time.</bold></h2>
 
 <section className="cards-wrapper">
-  <div className="card-grid-space1">
+  <div className="card-grid-space1 animate__animated animate__zoomIn">
       <div>
         <p className='explore-p'>Explore 10% off on all Benz purchases during
         our Summer Sale! Limited time offer.</p>
        <button className='explore-btn'>Claim Now</button>
       </div>
   </div>
-  <div className="card-grid-space2">
+  <div className="card-grid-space2  animate__animated animate__zoomIn">
       <div>
         <p className='explore-p'>Purchase any BMW and receive a compimentart
         1-year Maintenance package.</p>
        <button className='explore-btn'>Claim Now</button>
       </div>
   </div>
-  <div className="card-grid-space3">
+  <div className="card-grid-space3  animate__animated animate__zoomIn">
 
       <div>
         <p className='explore-p'>Enjoy 0% APR financing for 36 months on all new car purchases, Subject to credit approval.</p>
@@ -150,7 +150,7 @@ function Cards() {
 <h5 style={{color:'green'}}>Browse Inventory</h5>
 <h2 style={{color:'white'}}>Explore our Extensive inventory and Find <bold style={{color:'green'}}>Ideal Vehicle</bold></h2>
 
-<div className="scoller">
+<div className="scoller  animate__animated animate__zoomIn">
   <div className="scroller-item">
   <article className="card card--1">
   <div className="card__img"></div>

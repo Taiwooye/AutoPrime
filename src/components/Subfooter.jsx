@@ -9,7 +9,7 @@ function Subfooter() {
     <div className='container--footer'>
 
 
-    <div className="left">
+    <div className="left  animate__animated animate__fadeInLeft">
     <form >
        <div className="first">
        <p>Name</p>
@@ -36,7 +36,7 @@ function Subfooter() {
        <button className='third-button'>Send Message</button>
     </div>
 
-    <div className="right">
+    <div className="right  animate__animated animate__slideInRight">
     <img src={subfooter} alt=""style={{position:'inherit', width:'660px', height:'650px' }} />
     </div>
     
