@@ -1,0 +1,170 @@
+/* LAYOUT SECTION */
+
+.about-container {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    background-color: #171A19;
+
+  }
+  
+  .leftfooter {
+    flex: 1;
+    margin-bottom: 30px;
+    min-width: 650px;
+  }
+  
+  .about-h3{
+    max-width:450px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ser-tag{
+    font-size: 15px;
+    max-width: 473px;
+    margin-bottom: 0px;
+  
+  }
+  
+  .serbutt{
+    background-color: green;
+    border: none;
+    padding: 12px;
+    width: 30%;
+    margin-top: 20px;
+    color: rgb(63, 62, 62);
+    font-weight: 800;
+    border-radius: 3px;
+    
+  }
+  
+  
+  .rightfooter {
+    flex: 1;
+    width: 450px;
+    margin-right:0px ;
+    justify-content: center;
+    margin: auto;
+   
+  }
+  
+ 
+.service-cardm{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0.3rem;
+  }
+  .service-cardn{
+    width: 85%;
+    height: 24vh;
+    margin: 1rem 0rem 1rem 0rem ;
+    box-shadow:0px 0px 5px 0px rgb(52, 127, 52);
+    padding: 2px;
+  }
+  .service-img{
+  margin-left: 30px;
+  width: 100px;
+  height: 23vh;
+  justify-content: center;
+    border: none;
+    object-fit: contain;
+  }
+  
+  
+  @media (max-width: 768px){
+    .container{
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .rightmid {
+      flex: 1;
+     margin-left: auto;
+     width: 100%;
+      
+    }
+    .leftmid {
+      flex: 1;
+      margin-left: auto;
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+  
+  
+    
+  }/* LAYOUT SECTION */
+  
+  .about-container {
+    display: flex;
+    align-items: center;
+    min-width: 100%;
+    background-color: #171A19;
+  }
+  
+  .leftfooter {
+    flex: 1;
+    margin-bottom: 30px;
+    max-width: 65%;
+    margin: auto;
+    margin-left:0px ;
+  }
+  
+  .about-h3{
+    max-width:450px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ser-tag{
+    font-size: 15px;
+    max-width: 473px;
+    margin-bottom: 0px;
+  
+  }
+  
+  .serbutt{
+    background-color: green;
+    border: none;
+    padding: 12px;
+    width: 30%;
+    margin-top: 20px;
+    color: rgb(63, 62, 62);
+    font-weight: 800;
+    border-radius: 3px;
+    
+  }
+  
+  
+  .rightserve {
+    flex: 1;
+    max-width: 35%;
+    margin: auto;
+    margin-right: 0px;
+  }
+  
+  
+  
+  
+  
+  @media (max-width: 768px){
+    .container{
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+    }
+    .rightmid {
+      flex: 1;
+     margin-left: auto;
+     width: 100%;
+      
+    }
+    .leftmid {
+      flex: 1;
+      margin-left: auto;
+      margin-bottom: 30px;
+      max-width: 100%;
+    }
+  
+  
+    
+  }
