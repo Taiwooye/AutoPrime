@@ -1,8 +1,8 @@
 import React from 'react'
-import './Servicemidhero.css'
+import './Serviceflex.css'
 import flex from '../images/serviceflex.png';
 
-export default function AboutSubhero() {
+export default function Serviceflex() {
 
   const myList = [
     {
@@ -16,7 +16,7 @@ export default function AboutSubhero() {
 
   return (
 
-      <div className='about-container'>
+      <div className='flex-container'>
 
       <div className="leftser">
 

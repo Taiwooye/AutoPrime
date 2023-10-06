@@ -8,7 +8,7 @@ import hyundai from '../images/hyundai.png';
 import vector from '../images/vector.png';
 import benzz from '../images/benzzz.png';
 
-export default function AboutSubhero() {
+export default function Servicefooter() {
     const logolist = [
         {
           'image': honda,
