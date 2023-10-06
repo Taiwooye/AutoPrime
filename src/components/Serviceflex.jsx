@@ -31,7 +31,7 @@ export default function Serviceflex() {
   
   return (
     
-    <div key={items.title}>
+    <div key={items.title} >
       
      
      <div   style={{position:'inherit', height:'100%'}} >

@@ -12,19 +12,16 @@ const slides = [
     image: Homepic,
     text: '<b>Discover your perfect drive</b>',
     note:"Find The Car Of Your Dream From Our Wide Selection <strong className='strong'> Top quality vehicles. </strong>",
-    // subtitle:' Top quality vehicles
   },
   {
     image: group,
      text: '<b>Keeping your wheel rolling smoothly</b> ',
     note:"Trust our expert techinicians for reliable car <strong className='strong'>repair and maintenance </strong> services.",
-    // subtitle:'and maintenance services'
   },
   {
     image: frame2,
      text: '<b>Personalize Your Autommotive Vision</b>',
     note:"Bring your unique style to life with our <strong className='strong'> expert customization </strong className={strong}>services.",
-    // subtitle:' expert customization services.'
   },
   // Add more slides
 ];
@@ -49,13 +46,12 @@ function HeroSection() {
   const htmlPaser = new Parser();
   return (
     
-    <div className='hero-container'>
+    <div className='hero-container' >
 
     <img className='hero-container-img' src={currentSlide.image} alt="Slide" />
-    <h2>{htmlPaser.parse(name) }</h2>
-    <h1 style={{ maxWidth:900 }} >{htmlPaser.parse(note)}</h1>
-    {/* <h1 style={{ color:'green' }} >{currentSlide.subtitle}</h1> */}
-    <button className='btns'>Explore</button>
+    <h2 class="animate__animated animate__backInRight">{htmlPaser.parse(name) }</h2>
+    <h1 style={{ maxWidth:900 }} class="animate__animated animate__backInRight" >{htmlPaser.parse(note)}</h1>
+    <button className='btns'>Explore</button >
      </div>
   )
 }

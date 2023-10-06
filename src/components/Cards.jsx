@@ -25,7 +25,7 @@ function Cards() {
 <h5 style={{color:'green'}}>Our Exceptional Services</h5>
 <h2 style={{color:'white'}}>Range of <bold style={{color:'green'}}>Automotive Solutions</bold> Tailored to <br />
  Exeecd Your Expectations</h2>
-<div className="cards">
+<div className="cards" >
 <div className="icon-card">
       <div className="icon">
       <FaKey className='key' />
@@ -110,35 +110,6 @@ function Cards() {
     </div>
 </Marquee>
 
-
-{/* <div className="marquee">
-  <div className="marquee-content"> 
-
-    <div className="marquee-item">
-    <img src={frame6} alt="" className='marquee-img' />
-    </div>
-    <div className="marquee-item">
-    <img src={frame2} alt="" className='marquee-img' />
-    </div>
-    <div className="marquee-item">
-    <img src={frame3} alt="" className='marquee-img' />
-    </div>
-    <div className="marquee-item">
-    <img src={frame4} alt="" className='marquee-img' />
-    </div>
-    <div className="marquee-item">
-    <img src={frame5} alt=""  className='marquee-img'/>
-    </div>
-    <div className="marquee-item">
-    <img src={frame6} alt=""  className='marquee-img' />
-    </div>
-  
-
-    
-
-    </div>
-    </div> */}
-
     </div>
 
 
@@ -146,11 +117,8 @@ function Cards() {
 <h5 style={{color:'green'}}>Available Promo</h5>
 <h2 style={{color:'green'}}>Unbeatable <bold style={{color:'white'}}>deals for a limited time.</bold></h2>
 
-
-
 <section className="cards-wrapper">
   <div className="card-grid-space1">
-        {/* <img src={frame1} alt="" /> */}
       <div>
         <p className='explore-p'>Explore 10% off on all Benz purchases during
         our Summer Sale! Limited time offer.</p>
@@ -158,7 +126,6 @@ function Cards() {
       </div>
   </div>
   <div className="card-grid-space2">
-        {/* <img src={frame2} alt="" /> */}
       <div>
         <p className='explore-p'>Purchase any BMW and receive a compimentart
         1-year Maintenance package.</p>
@@ -166,9 +133,7 @@ function Cards() {
       </div>
   </div>
   <div className="card-grid-space3">
-  {/* <div className="date">
-          <h2>Expires july 31st,2023</h2>
-        </div> */}
+
       <div>
         <p className='explore-p'>Enjoy 0% APR financing for 36 months on all new car purchases, Subject to credit approval.</p>
        <button className='explore-btn'>Claim Now</button>
@@ -320,9 +285,6 @@ function Cards() {
  
 
 </div>
-
-
-    
 </>
 
   
