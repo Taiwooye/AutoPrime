@@ -4,6 +4,7 @@ import Servicemidhero from '../Servicemidhero';
 import Servicemiddle from '../Servicemiddle';
 import Servicemidfooter from '../Servicemidfooter';
 import Serviceorder from '../Serviceorder';
+import Serviceflex from '../Serviceflex';
 
 function Services() {
   return (
@@ -13,6 +14,7 @@ function Services() {
     <Servicemiddle/>
     <Servicemidfooter/>
     <Serviceorder/>
+    <Serviceflex/>
     </div>
   )
 }
