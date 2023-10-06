@@ -52,7 +52,10 @@ return (
   <img src={serve} alt=""style={{position:'inherit', width:'450px', height:'430px', objectFit:'cover' }} />
   
 </div>
+
   </div>
+
   
   )
+  
 }

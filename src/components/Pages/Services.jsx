@@ -3,6 +3,7 @@ import Serviceshero from '../Serviceshero';
 import Servicemidhero from '../Servicemidhero';
 import Servicemiddle from '../Servicemiddle';
 import Servicemidfooter from '../Servicemidfooter';
+import Serviceorder from '../Serviceorder';
 
 function Services() {
   return (
@@ -11,6 +12,7 @@ function Services() {
     <Servicemidhero/>
     <Servicemiddle/>
     <Servicemidfooter/>
+    <Serviceorder/>
     </div>
   )
 }
