@@ -4,7 +4,7 @@ import honda from '../images/honda.png';
 import audi from '../images/Frame 142.png';
 import chevrolet from '../images/chevrolet-4.png';
 import hyundai from '../images/hyundai.png';
-import vector from '../images/vector.png';
+import vector from '../images/Vector.png';
 import benzz from '../images/benzzz.png';
 
 export default function Servicefooter() {
