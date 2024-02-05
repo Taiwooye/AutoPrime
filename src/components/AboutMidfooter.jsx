@@ -1,4 +1,3 @@
-import React from 'react'
 import './AboutMidfooter.css'
 import group from '../images/group.jpg';
 

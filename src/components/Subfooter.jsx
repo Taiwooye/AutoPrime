@@ -1,4 +1,3 @@
-import React from 'react';
 import './Subfooter.css'
 import subfooter from '../images/subfooter.jpg';
 

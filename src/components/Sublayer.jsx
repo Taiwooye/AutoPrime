@@ -1,9 +1,6 @@
-import React from 'react'
 import './Sublayer.css'
 
-function Sublayer() {
-
-    
+function Sublayer() { 
   const array = [
     {
       'title': "I recently used this company's car swapping service, and it was a breeze. i needed a  larger vehicle for a weekend trip, and they made the process incredibly convenient. The staff was friendly and organized, ensuing that all the necessary paperwork and documentation were taken care of.",
@@ -28,7 +25,7 @@ function Sublayer() {
 
   return (
     <div>
-       <h2 className="sub--h2">Our <span style={{color:'green'}}>Client's</span> Reviews</h2>
+       <h2 className="sub--h2">Our <span style={{color:'green'}}>Client&apos;s</span> Reviews</h2>
     <>
   
  <div className="list ">

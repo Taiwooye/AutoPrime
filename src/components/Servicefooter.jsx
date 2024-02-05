@@ -1,4 +1,3 @@
-import React from 'react'
 import './Servicefooter.css'
 import bmw from '../images/bmw.png';
 import honda from '../images/honda.png';

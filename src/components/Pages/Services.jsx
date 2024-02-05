@@ -1,4 +1,3 @@
-import React from 'react'
 import Serviceshero from '../Serviceshero';
 import Servicemidhero from '../Servicemidhero';
 import Servicemiddle from '../Servicemiddle';

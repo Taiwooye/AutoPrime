@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './CarSidebar.css';
 
 const Accordion = () => {
-  const [sections, setSections] = useState([
+  const sections = [
     {
       head: 'Condition',
       title: ['New', 'Used'],
@@ -19,7 +19,7 @@ const Accordion = () => {
       head: 'Year ',
       title: ['2017', '2018', '2019', '2020', '2021', '2022', '2023'],
     },
-  ]);
+  ];
 
   const [openSections, setOpenSections] = useState({});
 
@@ -43,13 +43,10 @@ const Accordion = () => {
             {openSections[index] && (
               <ul className="nested">
                 {section.title.map((title, subIndex) => (
-                 <li key={subIndex}>
-                    
-                      <label>
-                        <input type="checkbox" /> {title}
-                      </label>
-                   
-                    
+                  <li key={subIndex}>
+                    <label>
+                      <input type="checkbox" /> {title}
+                    </label>
                   </li>
                 ))}
               </ul>

@@ -1,4 +1,3 @@
-import React from 'react'
 import './Servicemidfooter.css'
 import serve from '../images/serve.png';
 

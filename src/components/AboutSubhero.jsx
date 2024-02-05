@@ -1,4 +1,3 @@
-import React from 'react'
 import './AboutSubhero.css'
 import hot1 from '../images/Frame 108.jpg';
 import hot2 from '../images/Frame 107.jpg';

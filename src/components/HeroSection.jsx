@@ -1,4 +1,3 @@
-import React from 'react';
 import './HeroSection.css';
 import Homepic from '../images/home.jpg';
 import group from '../images/home2.jpg';
@@ -49,8 +48,8 @@ function HeroSection() {
     <div className='hero-container' >
 
     <img className='hero-container-img' src={currentSlide.image} alt="Slide" />
-    <h2 class="animate__animated animate__backInRight">{htmlPaser.parse(name) }</h2>
-    <h1 style={{ maxWidth:900 }} class="animate__animated animate__backInRight" >{htmlPaser.parse(note)}</h1>
+    <h2 className="animate__animated animate__backInRight">{htmlPaser.parse(name) }</h2>
+    <h1 style={{ maxWidth:900 }} className="animate__animated animate__backInRight" >{htmlPaser.parse(note)}</h1>
     <button className='btns  animate__animated animate__fadeInUp' >Explore</button >
      </div>
   )

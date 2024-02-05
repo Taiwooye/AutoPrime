@@ -1,4 +1,3 @@
-import React from 'react'
 import './Serviceshero.css'
 import ser from '../images/Service.png';
 

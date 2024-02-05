@@ -1,4 +1,3 @@
-import React from 'react';
 import HeroSection from '../HeroSection';
 import Layout from '../Layout';
 import Sublayer from '../Sublayer';

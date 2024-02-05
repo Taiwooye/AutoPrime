@@ -1,4 +1,3 @@
-import React from 'react'
 import './AboutMidhero.css'
 import frame1 from '../images/Frame 49.jpg';
 import frame2 from '../images/Frame 110.jpg';

@@ -1,4 +1,3 @@
-import React from 'react'
 import './Servicemiddle.css';
 import toyota from '../images/toyota.png';
 import toyota2 from '../images/toyota2.png';

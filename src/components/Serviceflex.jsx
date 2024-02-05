@@ -1,4 +1,3 @@
-import React from 'react'
 import './Serviceflex.css'
 import flex from '../images/serviceflex.png';
 

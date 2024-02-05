@@ -1,23 +1,14 @@
-import React from 'react'
 import Marquee from 'react-fast-marquee'
 import './Cards.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { faRetweet} from "@fortawesome/free-solid-svg-icons";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FaKey } from 'react-icons/fa';
- import frame1 from '../images/red.jpg';
 import frame2 from '../images/Frame 142.png';
 import frame3 from '../images/Vector.png';
 import frame4 from '../images/hyundai.png';
 import frame5 from '../images/bmw.png';
 import frame6 from '../images/chevrolet-4.png';
 
-
-// import frame8 from '../images/ford.jpg';
-
-
 function Cards() {
-
   return (
 
 <>
@@ -60,7 +51,7 @@ function Cards() {
       </div>
       <h2 className='car'>Pre-Order</h2>
       <p>You choose a vehicle you prefer,
-        and we'll proceed with placing an order for it on your behalf.</p>
+        and we&apos;ll proceed with placing an order for it on your behalf.</p>
     </div>
 <div className="icon-card ">
       <div className="icon">

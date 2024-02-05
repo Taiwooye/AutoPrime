@@ -1,4 +1,3 @@
-import React from 'react'
 import './Servicemidhero.css'
 import car from '../images/bmwservice.png';
 

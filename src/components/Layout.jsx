@@ -1,4 +1,3 @@
-import React from 'react'
 import './Layout.css'
 import mechanic from '../images/mechanic.jpg';
 import mech1 from '../images/mech1.jpg';
@@ -48,7 +47,7 @@ export default function Layout() {
           
           return (
             
-            <div key={items.title} class='right animate__animated animate__slideInRight'>
+            <div key={items.title} className='right animate__animated animate__slideInRight'>
               
               <ul className='left--ul'>
          
